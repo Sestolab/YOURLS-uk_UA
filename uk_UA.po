@@ -1,0 +1,1445 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YOURLS 1.7\n"
+"POT-Creation-Date: 2014-01-11 11:50+0100\n"
+"PO-Revision-Date: 2021-02-22 12:27+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-KeywordsList: yourls__;yourls_e;yourls_s;yourls_se;"
+"yourls_esc_attr__;yourls_esc_html__;yourls_x;yourls_ex;yourls_esc_attr_x;"
+"yourls_esc_html_x;yourls_n:1,2;yourls_nx:1,2;yourls_n_noop:1,2;"
+"yourls_nx_noop:1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Last-Translator: Sergiy Stupar <owner@sestolab.pp.ua>\n"
+"Language: uk_UA\n"
+"X-Poedit-Bookmarks: -1,88,245,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: yourls-infos.php:204
+#, php-format
+msgid "Statistics for %s"
+msgstr "Статистика %s"
+
+#: yourls-infos.php:211 admin/index.php:15 admin/index.php:34
+#: admin/index.php:93 includes/functions-html.php:209
+#: includes/functions-html.php:221 includes/functions-html.php:464
+#: includes/functions-html.php:626
+msgid "Short URL"
+msgstr "Коротка URL"
+
+#: yourls-infos.php:227
+msgid "Aggregate stats for duplicate short URLs"
+msgstr "Об`єднати статистику для однакових коротких URL"
+
+#: yourls-infos.php:229 includes/functions-html.php:464
+msgid "Long URL"
+msgstr "Довга URL"
+
+#: yourls-infos.php:235 yourls-infos.php:246
+msgid "Traffic statistics"
+msgstr "Статистика трафіку"
+
+#: yourls-infos.php:236 yourls-infos.php:432
+msgid "Traffic location"
+msgstr "Розташування трафіку"
+
+#: yourls-infos.php:237 yourls-infos.php:469
+msgid "Traffic sources"
+msgstr "Джерела трафіку"
+
+#: yourls-infos.php:239 yourls-infos.php:539 includes/functions-html.php:505
+#: includes/functions-html.php:506
+msgid "Share"
+msgstr "Поширити"
+
+#: yourls-infos.php:254 yourls-infos.php:294
+msgid "Last 24 hours"
+msgstr "Останні 24 години"
+
+#: yourls-infos.php:255 yourls-infos.php:296
+msgid "Last 7 days"
+msgstr "Останні 7 днів"
+
+#: yourls-infos.php:256 yourls-infos.php:298
+msgid "Last 30 days"
+msgstr "Останні 30 днів"
+
+#: yourls-infos.php:257 yourls-infos.php:300
+msgid "All time"
+msgstr "Весь час"
+
+#: yourls-infos.php:309
+#, php-format
+msgid "Number of hits : %s"
+msgstr "Кількість переглядів: %s"
+
+#: yourls-infos.php:332
+msgid "Historical click count"
+msgstr "Історія кліків"
+
+#: yourls-infos.php:338
+#, php-format
+msgid "about 1 day ago"
+msgid_plural "about %s days ago"
+msgstr[0] "близько %s дня тому"
+msgstr[1] "близько %s днів тому"
+msgstr[2] "близько %s днів тому"
+
+#. //translators: eg Short URL created on March 23rd 1972
+#: yourls-infos.php:341
+#, php-format
+msgid "Short URL created on %s"
+msgstr "Коротку URL створено %s"
+
+#: yourls-infos.php:356 yourls-infos.php:363
+#, php-format
+msgid "%s per day"
+msgstr "%s на день"
+
+#: yourls-infos.php:359
+#, php-format
+msgid "%s per hour"
+msgstr "%s на годину"
+
+#: yourls-infos.php:366
+#, php-format
+msgid "%s hit"
+msgid_plural "%s hits"
+msgstr[0] "%s перегляд"
+msgstr[1] "%s переглади"
+msgstr[2] "%s переглядів"
+
+#: yourls-infos.php:373
+msgid "Best day"
+msgstr "Кращий день"
+
+#. //translators: eg. 43 hits on January 1, 1970
+#: yourls-infos.php:380
+#, php-format
+msgid "<strong>%1$s</strong> hit on %2$s"
+msgid_plural "<strong>%1$s</strong> hits on %2$s"
+msgstr[0] "<strong>%1$s</strong> перегляд на %2$s"
+msgstr[1] "<strong>%1$s</strong> перегляди на %2$s"
+msgstr[2] "<strong>%1$s</strong> переглядів на %2$s"
+
+#: yourls-infos.php:381 yourls-infos.php:443
+msgid "Click for more details"
+msgstr "Натисніть, щоб дізнатися більше"
+
+#: yourls-infos.php:387 yourls-infos.php:390
+#, php-format
+msgid "Year %s"
+msgstr "Рік %s"
+
+#: yourls-infos.php:409 yourls-infos.php:447
+#, php-format
+msgid "1 hit"
+msgid_plural "%s hits"
+msgstr[0] "%s перегляд"
+msgstr[1] "%s перегляди"
+msgstr[2] "%s переглядів"
+
+#: yourls-infos.php:426
+msgid "No traffic yet. Get some clicks first!"
+msgstr "Ще немає трафіку. Спочатку отримайте декілька кліків!"
+
+#: yourls-infos.php:441
+msgid "Top 5 countries"
+msgstr "Топ 5 країн"
+
+#: yourls-infos.php:454
+msgid "Overall traffic"
+msgstr "Загальний трафік"
+
+#: yourls-infos.php:463
+msgid "No country data."
+msgstr "Немає даних про країну."
+
+#: yourls-infos.php:478
+msgid "Referrer shares"
+msgstr "Спільні реферери"
+
+#: yourls-infos.php:481
+msgid "Others"
+msgstr "Інші"
+
+#: yourls-infos.php:485 yourls-infos.php:518
+msgid "Referrers"
+msgstr "Реферери"
+
+#: yourls-infos.php:492 yourls-infos.php:502
+msgid "(details)"
+msgstr "(деталі)"
+
+#: yourls-infos.php:502
+msgid "Various:"
+msgstr "Різне:"
+
+#: yourls-infos.php:516
+msgid "Direct vs Referrer Traffic"
+msgstr "Прямий трафік і переходи з сайтів"
+
+#: yourls-infos.php:518
+msgid "Direct"
+msgstr "Прямий"
+
+#: yourls-infos.php:520
+msgid "Direct traffic:"
+msgstr "Прямий трафік:"
+
+#: yourls-infos.php:520 yourls-infos.php:521
+#, php-format
+msgid "<strong>%s</strong> hit"
+msgid_plural "<strong>%s</strong> hits"
+msgstr[0] "<strong>%s</strong> перегляд"
+msgstr[1] "<strong>%s</strong> перегляди"
+msgstr[2] "<strong>%s</strong> переглядів"
+
+#: yourls-infos.php:521
+msgid "Referrer traffic:"
+msgstr "Переходи з сайтів:"
+
+#: yourls-infos.php:530
+msgid "No referrer data."
+msgstr "Немає даних про джерела переходів."
+
+#: yourls-infos.php:541
+msgid "Short link"
+msgstr "Коротке посилання"
+
+#: yourls-infos.php:541 includes/functions-html.php:359
+msgid "Quick Share"
+msgstr "Швидко поширити"
+
+#: admin/index.php:13 admin/index.php:38 admin/index.php:97
+#: includes/functions-html.php:210 includes/functions-html.php:222
+msgid "URL"
+msgstr "URL"
+
+#: admin/index.php:42 includes/functions-html.php:211
+#: includes/functions-html.php:464
+msgid "Title"
+msgstr "Заголовок"
+
+#: admin/index.php:46 admin/index.php:105
+msgid "IP Address"
+msgstr "IP-адреса"
+
+#: admin/index.php:50
+#, php-format
+msgid "Searching for <strong>%1$s</strong> in <strong>%2$s</strong>."
+msgstr "Пошук <strong>%1$s</strong> в <strong>%2$s</strong>."
+
+#: admin/index.php:101 includes/functions-html.php:223
+#: includes/functions-html.php:628
+msgid "Date"
+msgstr "Дата"
+
+#: admin/index.php:109 includes/functions-html.php:225
+#: includes/functions-html.php:630
+msgid "Clicks"
+msgstr "Кліки"
+
+#: admin/index.php:187 admin/index.php:198 admin/index.php:209
+#, php-format
+msgid "Short URL created, but could not redirect to %s !"
+msgstr "Коротку URL створено, але не може бути перенаправлено на %s !"
+
+#: admin/index.php:219
+msgid "Unknown \"Share\" bookmarklet"
+msgstr "Невідомий букмарклет \"Поділитися\""
+
+#: admin/index.php:272
+#, php-format
+msgid ""
+"Display <strong>%1$s</strong> to <strong class=\"increment\">%2$s</strong> "
+"of <strong class=\"increment\">%3$s</strong> URLs"
+msgstr ""
+"Показано <strong>%1$s</strong> до <strong class=\"increment\">%2$s</strong> "
+"з <strong class=\"increment\">%3$s</strong> URL"
+
+#: admin/index.php:274
+#, php-format
+msgid "counting <strong>1</strong> click"
+msgid_plural "counting <strong>%s</strong> clicks"
+msgstr[0] "нараховано <strong>%s</strong> клік"
+msgstr[1] "нараховано <strong>%s</strong> кліки"
+msgstr[2] "нараховано <strong>%s</strong> кліків"
+
+#: admin/index.php:277
+#, php-format
+msgid ""
+"Overall, tracking <strong class=\"increment\">%1$s</strong> links, <strong>"
+"%2$s</strong> clicks, and counting!"
+msgstr ""
+"Загалом, відстежено <strong class=\"increment\">%1$s</strong> посилань, "
+"<strong>%2$s</strong> кліків, і ще рахуємо!"
+
+#: admin/index.php:337
+msgid "No URL"
+msgstr "Немає URL"
+
+#: admin/install.php:13 admin/install.php:18
+#, php-format
+msgid "%s version is too old. Ask your server admin for an upgrade."
+msgstr ""
+"Версія %s занадто стара. Запитайте адміністратора сервера про оновлення."
+
+#: admin/install.php:24
+msgid "YOURLS already installed."
+msgstr "YOURLS вже встановлено."
+
+#: admin/install.php:35
+msgid "File <tt>.htaccess</tt> successfully created/updated."
+msgstr "Файл <tt>.htaccess</tt> успішно створено/оновлено."
+
+#: admin/install.php:37
+msgid ""
+"Could not write file <tt>.htaccess</tt> in YOURLS root directory. You will "
+"have to do it manually. See <a href=\"http://yourls.org/htaccess\">how</a>."
+msgstr ""
+"Не вдалося записати файл <tt>.htaccess</tt> у кореневий каталог YOURLS. Ви "
+"повинні зробити це вручну. Подивіться <a href=\"http://yourls.org/htaccess"
+"\">як</a>."
+
+#: admin/install.php:50 admin/install.php:71
+msgid "Install YOURLS"
+msgstr "Встановити YOURLS"
+
+#: admin/install.php:74
+msgid "YOURLS Administration Page"
+msgstr "Сторінка адміністрування YOURLS"
+
+#: admin/plugins.php:38
+msgid "Unsupported action"
+msgstr "Непідтримувана дія"
+
+#: admin/plugins.php:42
+msgid "No plugin specified, or not a valid plugin"
+msgstr "Не вказано жодного плагіна чи недійсний плагін"
+
+#: admin/plugins.php:51
+msgid "Plugin has been activated"
+msgstr "Плагін активовано"
+
+#: admin/plugins.php:53
+msgid "Plugin has been deactivated"
+msgstr "Плагін деактивовано"
+
+#: admin/plugins.php:58 includes/functions-html.php:745
+msgid "Manage Plugins"
+msgstr "Управління плагінами"
+
+#: admin/plugins.php:63
+msgid "Plugins"
+msgstr "Плагіни"
+
+#: admin/plugins.php:70
+#, php-format
+msgid "%s plugin"
+msgid_plural "%s plugins"
+msgstr[0] "%s плагін"
+msgstr[1] "%s плагіни"
+msgstr[2] "%s плагінів"
+
+#. //translators: "you have '3 plugins' installed and '1' activated"
+#: admin/plugins.php:74
+#, php-format
+msgid ""
+"You currently have <strong>%1$s</strong> installed, and <strong>%2$s</"
+"strong> activated"
+msgstr ""
+"Наразі встановлено <strong>%1$s </strong> і <strong>%2$s </strong> активовано"
+
+#: admin/plugins.php:79
+msgid "Plugin Name"
+msgstr "Назва плагіна"
+
+#: admin/plugins.php:80
+msgid "Version"
+msgstr "Версія"
+
+#: admin/plugins.php:81
+msgid "Description"
+msgstr "Опис"
+
+#: admin/plugins.php:82
+msgid "Author"
+msgstr "Автор"
+
+#: admin/plugins.php:83
+msgid "Action"
+msgstr "Дія"
+
+#: admin/plugins.php:118
+msgid "Deactivate"
+msgstr "Деактивувати"
+
+#: admin/plugins.php:122
+msgid "Activate"
+msgstr "Активувати"
+
+#: admin/plugins.php:133
+#, php-format
+msgid "plugin file location: %s"
+msgstr "розташування файлу плагіна: %s"
+
+#: admin/plugins.php:150
+msgid "Toggle active/inactive plugins"
+msgstr "Перемкнути активні/неактивні плагіни"
+
+#: admin/plugins.php:157
+msgid ""
+"If something goes wrong after you activate a plugin and you cannot use "
+"YOURLS or access this page, simply rename or delete its directory, or rename "
+"the plugin file to something different than <code>plugin.php</code>."
+msgstr ""
+"Якщо щось піде не так після активації плагіна, і Ви не зможете "
+"використовувати YOURLS або отримати доступ до цієї сторінки, просто "
+"перейменуйте або видаліть його каталог, або перейменуйте файл плагіна на "
+"щось інше, ніж <code>plugin.php</code>."
+
+#: admin/plugins.php:159
+msgid "More plugins"
+msgstr "Більше плагінів"
+
+#: admin/plugins.php:162
+msgid ""
+"For more plugins, head to the official <a href=\"http://yourls.org/awesome"
+"\">Plugin list</a>."
+msgstr ""
+"Для отримання додаткових плагінів зверніться до офіційного <a href=\"http://"
+"yourls.org/awesome\">списку плагінів</a>."
+
+#: admin/tools.php:6
+msgid "Cool YOURLS Tools"
+msgstr "Класні інструменти YOURLS"
+
+#: admin/tools.php:13
+msgid "Bookmarklets"
+msgstr "Букмарклети"
+
+#: admin/tools.php:15
+msgid ""
+"YOURLS comes with handy <span>bookmarklets</span> for easier link shortening "
+"and sharing."
+msgstr ""
+"YOURLS поставляється із зручними <span>букмарклетами</span> для полегшення "
+"скорочення та обміну посиланнями."
+
+#: admin/tools.php:17
+msgid "Standard or Instant, Simple or Custom"
+msgstr "Стандартний або Миттєвий, Простий або Власний"
+
+#: admin/tools.php:20
+msgid ""
+"The <span>Standard Bookmarklets</span> will take you to a page where you can "
+"easily edit or delete your brand new short URL."
+msgstr ""
+"<span>Стандартні букмарклети</span> перенесуть Вас на сторінку, де Ви "
+"зможете легко редагувати або видаляти нову коротку URL."
+
+#: admin/tools.php:22
+msgid ""
+"The <span>Instant Bookmarklets</span> will pop the short URL without leaving "
+"the page you are viewing."
+msgstr ""
+"<span>Миттєві букмарклети</span> показуватимуть коротку URL, не залишаючи "
+"сторінки, яку Ви переглядаєте."
+
+#: admin/tools.php:24
+msgid ""
+"The <span>Simple Bookmarklets</span> will generate a short URL with a random "
+"or sequential keyword."
+msgstr ""
+"<span>Прості букмарклети</span> генеруватимуть коротку URL з випадковим або "
+"послідовним ключовим словом."
+
+#: admin/tools.php:26
+msgid ""
+"The <span>Custom Keyword Bookmarklets</span> will prompt you for a custom "
+"keyword first."
+msgstr ""
+"<span>Власні букмарклети</span> спочатку запитають Вас про спеціальне "
+"ключове слово."
+
+#: admin/tools.php:30
+msgid ""
+"If you want to share a description along with the link you're shortening, "
+"simply <span>select text</span> on the page you're viewing before clicking "
+"on your bookmarklet link"
+msgstr ""
+"Якщо Ви хочете поділитися описом разом із скороченим посиланням, просто "
+"<span>виберіть текст</span> на сторінці, яку Ви переглядаєте, перш ніж "
+"натиснути посилання на букмарклет"
+
+#: admin/tools.php:33
+msgid "The Bookmarklets"
+msgstr "Букмарклети"
+
+#: admin/tools.php:35 admin/tools.php:62
+msgid "Click and drag links to your toolbar (or right-click and bookmark it)"
+msgstr ""
+"Натисніть і перетягніть посилання на панель інструментів (або клацніть "
+"правою кнопкою миші та додайте її до закладок)"
+
+#: admin/tools.php:41
+msgid "Standard (new page)"
+msgstr "Стандартний (нова сторінка)"
+
+#: admin/tools.php:42
+msgid "Instant (popup)"
+msgstr "Миттєвий (спливаюче вікно)"
+
+#: admin/tools.php:47
+msgid "Simple"
+msgstr "Простий"
+
+#: admin/tools.php:48 admin/tools.php:49 admin/tools.php:53 admin/tools.php:54
+#: admin/tools.php:68 admin/tools.php:70 admin/tools.php:72
+msgid "Drag to your toolbar!"
+msgstr "Перетягніть на панель інструментів!"
+
+#: admin/tools.php:48
+msgid "Shorten"
+msgstr "Скоротити"
+
+#: admin/tools.php:49
+msgid "Instant Shorten"
+msgstr "Миттєво скоротити"
+
+#: admin/tools.php:52
+msgid "Custom Keyword"
+msgstr "Власне ключове слово"
+
+#: admin/tools.php:53
+msgid "Custom shorten"
+msgstr "Власне cкорочення"
+
+#: admin/tools.php:54
+msgid "Instant Custom Shorten"
+msgstr "Власне миттєве скорочення"
+
+#: admin/tools.php:59
+msgid "Social Bookmarklets"
+msgstr "Соціальні букмарклети"
+
+#: admin/tools.php:61
+msgid "Create a short URL and share it on social networks, all in one click!"
+msgstr ""
+"Створіть коротку URL та поділіться нею у соціальних мережах, одним кліком!"
+
+#: admin/tools.php:64
+msgid "Shorten and share:"
+msgstr "Скоротити і поширити:"
+
+#: admin/tools.php:68
+msgid "YOURLS &amp; Facebook"
+msgstr "YOURLS &amp; Facebook"
+
+#: admin/tools.php:70
+msgid "YOURLS &amp; Twitter"
+msgstr "YOURLS &amp; Twitter"
+
+#: admin/tools.php:72
+msgid "YOURLS &amp; Tumblr"
+msgstr "YOURLS &amp; Tumblr"
+
+#: admin/tools.php:80
+msgid "Prefix-n-Shorten"
+msgstr "Скорочення через префікс"
+
+#: admin/tools.php:82
+#, php-format
+msgid ""
+"When viewing a page, you can also prefix its full URL: just head to your "
+"browser's address bar, add \"<span>%s</span>\" to the beginning of the "
+"current URL (right before its 'http://' part) and hit enter."
+msgstr ""
+"Під час перегляду сторінки можна також додати префікс до повної URL: просто "
+"перейдіть у адресний рядок браузера, додайте \"<span>%s</span>\" до початку "
+"поточної URL (безпосередньо перед її \"http://\" частиною) і натисніть enter."
+
+#: admin/tools.php:85
+msgid ""
+"Note: this will probably not work if your web server is running on Windows"
+msgstr ""
+"Примітка: це, ймовірно, не працюватиме, якщо Ваш веб-сервер працює на Windows"
+
+#: admin/tools.php:87
+msgid " (which seems to be the case here)"
+msgstr " (здається, це якраз так)"
+
+#: admin/tools.php:93
+msgid "Secure passwordless API call"
+msgstr "Безпечний виклик API (без пароля)"
+
+#: admin/tools.php:96
+msgid ""
+"YOURLS allows API calls the old fashioned way, using <tt>username</tt> and "
+"<tt>password</tt> parameters."
+msgstr ""
+"YOURLS дозволяє викликати API старим способом, використовуючи параметри "
+"<tt>username</tt> і <tt>password</tt>."
+
+#: admin/tools.php:98
+msgid ""
+"If you're worried about sending your credentials into the wild, you can also "
+"make API calls without using your login or your password, using a secret "
+"signature token."
+msgstr ""
+"Якщо Ви турбуєтеся про відправлення облікових даних у публічний доступ, Ви "
+"також можете робити виклики API, не використовуючи свій логін або пароль, "
+"використовуючи секретний маркер підпису."
+
+#: admin/tools.php:102
+#, php-format
+msgid "Your secret signature token: <strong><code>%s</code></strong>"
+msgstr "Ваш секретний підпис: <strong><code>%s</code></strong>"
+
+#: admin/tools.php:103
+msgid "(It's a secret. Keep it secret) "
+msgstr "(Це секрет. Залишіть його в таємниці) "
+
+#: admin/tools.php:106
+msgid ""
+"This signature token can only be used with the API, not with the admin "
+"interface."
+msgstr ""
+"Цей підпис можна використовувати лише з API, а не з інтерфейсом "
+"адміністратора."
+
+#: admin/tools.php:109
+msgid "Usage of the signature token"
+msgstr "Використання підпису"
+
+#: admin/tools.php:110
+msgid "Simply use parameter <tt>signature</tt> in your API requests. Example:"
+msgstr ""
+"Просто використовуйте параметр <tt>signature</tt> у запитах до API. Приклад:"
+
+#: admin/tools.php:114
+msgid "Usage of a time limited signature token"
+msgstr "Використання підпису обмеженого за часом"
+
+#: admin/tools.php:117 admin/tools.php:119
+msgid "actual value:"
+msgstr "фактичне значення:"
+
+#: admin/tools.php:122
+msgid ""
+"Now use parameters <tt>signature</tt> and <tt>timestamp</tt> in your API "
+"requests. Example:"
+msgstr ""
+"Тепер використовуйте параметри <tt>signature</tt> і <tt>timestamp</tt> в "
+"ваши запитах до API . Приклад:"
+
+#: admin/tools.php:124
+msgid "Actual values:"
+msgstr "Фактичні значення:"
+
+#: admin/tools.php:126
+#, php-format
+msgid "This URL would be valid for only %s seconds"
+msgstr "Ця URL буде дійсною тільки %s секунд"
+
+#: admin/tools.php:130
+#, php-format
+msgid "See the <a href=\"%s\">API documentation</a> for more"
+msgstr "Докладнішу інформацію дивіться у <a href=\"%s\">документації API</a>"
+
+#: admin/upgrade.php:9 admin/upgrade.php:13
+msgid "Upgrade YOURLS"
+msgstr "Оновлення YOURLS"
+
+#: admin/upgrade.php:18
+#, php-format
+msgid "Upgrade not required. Go <a href=\"%s\">back to play</a>!"
+msgstr "Оновлення непотрібно. Продовжуйте <a href=\"%s\">користуватися</a>!"
+
+#: admin/upgrade.php:51
+msgid "Your current installation needs to be upgraded."
+msgstr "Ваше поточне встановлення потребує оновлення."
+
+#: admin/upgrade.php:52
+msgid ""
+"Please, pretty please, it is recommended that you <strong>backup</strong> "
+"your database<br/>(you should do this regularly anyway)"
+msgstr ""
+"Будь ласка, дуже прошу, <strong>зробіть резервну копію</strong> бази даних "
+"<br/>(Ви повинні робити її регулярно)"
+
+#: admin/upgrade.php:53
+msgid ""
+"Nothing awful <em>should</em> happen, but this doesn't mean it <em>won't</"
+"em> happen, right? ;)"
+msgstr ""
+"Нічого страшного <em>не повинно</em> статися, але це не означає, що цього "
+"<em>не станеться</em>, чи не так? ;)"
+
+#: admin/upgrade.php:54
+msgid ""
+"On every step, if <span class='error'>something goes wrong</span>, you'll "
+"see a message and hopefully a way to fix."
+msgstr ""
+"На кожному кроці, якщо <span class='error'>щось піде не так</span>, Ви "
+"побачите повідомлення і, сподіваюся, спосіб виправлення."
+
+#: admin/upgrade.php:55
+msgid ""
+"If everything goes too fast and you cannot read, <span class=\"success"
+"\">good for you</span>, let it go :)"
+msgstr ""
+"Якщо все йде занадто швидко і Ви не можете читати, <span class=\"success"
+"\">от і добре</span>, відпустіть :)"
+
+#: admin/upgrade.php:56
+msgid "Once you are ready, press \"Upgrade\" !"
+msgstr "Коли будете готові, натисніть \"Оновити\" !"
+
+#: admin/upgrade.php:65
+msgid "Upgrade"
+msgstr "Оновити"
+
+#: admin/upgrade.php:77
+msgid "Your installation is now up to date ! "
+msgstr "Ваше встановлення оновлено ! "
+
+#: admin/upgrade.php:78
+#, php-format
+msgid "Go back to <a href=\"%s\">the admin interface</a>"
+msgstr "Повернутися до <a href=\"%s\">інтерфейсу адміністратора</a>"
+
+#: includes/auth.php:53
+#, php-format
+msgid "Could not auto-encrypt passwords. Error was: \"%s\"."
+msgstr "Не вдалося автоматично шифрувати паролі. Помилка: \"%s\"."
+
+#: includes/auth.php:55
+#, php-format
+msgid "<a href=\"%s\">Get help</a>."
+msgstr "<a href=\"%s\">Отримати допомогу</a>."
+
+#: includes/auth.php:57
+#, php-format
+msgid "<a href=\"%s\">Click here</a> to dismiss this message for one week."
+msgstr ""
+"<a href=\"%s\">Натисніть тут</a> щоб ігнорувати це повідомлення протягом "
+"тижня."
+
+#: includes/class-mysql.php:39
+msgid ""
+"YOURLS requires the mysql, mysqli or pdo_mysql PHP extension. No extension "
+"found. Check your server config, or contact your host."
+msgstr ""
+"YOURLS потребує PHP розширень mysql, mysqli або pdo_mysql. Не знайдено "
+"розширення. Перевірте конфігурацію сервера або зверніться до свого хоста."
+
+#: includes/class-mysql.php:40 includes/functions-install.php:16
+#: includes/functions.php:438 includes/functions.php:450
+msgid "Fatal error"
+msgstr "Критична помилка"
+
+#: includes/functions-auth.php:26
+msgid "Logged out successfully"
+msgstr "Ви успішно вийшли"
+
+#: includes/functions-auth.php:102
+msgid "Invalid username or password"
+msgstr "Неправильне ім'я користувача або пароль"
+
+#: includes/functions-auth.php:104
+msgid "Please log in"
+msgstr "Будь ласка, увійдіть"
+
+#: includes/functions-html.php:142
+#, php-format
+msgid "1 query"
+msgid_plural "%s queries"
+msgstr[0] "%s запит"
+msgstr[1] "%s запити"
+msgstr[2] "%s запитів"
+
+#: includes/functions-html.php:147
+#, php-format
+msgid "Powered by %s"
+msgstr "Працює на %s"
+
+#: includes/functions-html.php:175
+msgid "Enter the URL"
+msgstr "Введіть URL"
+
+#: includes/functions-html.php:176
+msgid "Optional "
+msgstr "Необов'язково "
+
+#: includes/functions-html.php:176
+msgid "Custom short URL"
+msgstr "Власна коротка URL"
+
+#: includes/functions-html.php:178
+msgid "Shorten The URL"
+msgstr "Скоротити URL"
+
+#: includes/functions-html.php:212 includes/functions-html.php:224
+#: includes/functions-html.php:629
+msgid "IP"
+msgstr "IP"
+
+#. //translators: "Search for <input field with text to search> in <select dropdown with URL, title...>"
+#: includes/functions-html.php:216
+#, php-format
+msgid "Search for %1$s in %2$s"
+msgstr "Шукати %1$s в %2$s"
+
+#: includes/functions-html.php:230
+msgid "Ascending"
+msgstr "За зростанням"
+
+#: includes/functions-html.php:231
+msgid "Descending"
+msgstr "За спаданням"
+
+#. //translators: "Order by <criteria dropdown (date, clicks...)> in <order dropdown (Descending or Ascending)>"
+#: includes/functions-html.php:235
+#, php-format
+msgid "Order by %1$s %2$s"
+msgstr "Сортувати %1$s %2$s"
+
+#. //translators: "Show <text field> rows"
+#: includes/functions-html.php:240
+#, php-format
+msgid "Show %s rows"
+msgstr "Показати %s рядків"
+
+#: includes/functions-html.php:245
+msgid "more"
+msgstr "білше"
+
+#: includes/functions-html.php:246
+msgid "less"
+msgstr "менше"
+
+#. //translators: "Show links with <more/less> than <text field> clicks"
+#: includes/functions-html.php:251
+#, php-format
+msgid "Show links with %1$s than %2$s clicks"
+msgstr "Показати посилання з %1$s, ніж %2$s кліків"
+
+#: includes/functions-html.php:256
+msgid "before"
+msgstr "раніше"
+
+#: includes/functions-html.php:257
+msgid "after"
+msgstr "після"
+
+#: includes/functions-html.php:258
+msgid "between"
+msgstr "між"
+
+#. //translators: "Show links created <before/after/between> <date input> <"and" if applicable> <date input if applicable>"
+#: includes/functions-html.php:265
+#, php-format
+msgid "Show links created %1$s %2$s %3$s %4$s"
+msgstr "Показати посилання створені %1$s %2$s %3$s %4$s"
+
+#: includes/functions-html.php:269
+msgid "Search"
+msgstr "Пошук"
+
+#: includes/functions-html.php:271
+msgid "Clear"
+msgstr "Очистити"
+
+#: includes/functions-html.php:291
+#, php-format
+msgid "1 page"
+msgid_plural "%s pages"
+msgstr[0] "%s сторінка"
+msgstr[1] "%s сторінки"
+msgstr[2] "%s сторінок"
+
+#: includes/functions-html.php:299 includes/functions-html.php:313
+msgid "Go to First Page"
+msgstr "Перейти до першої сторінки"
+
+#: includes/functions-html.php:299
+msgid "&laquo; First"
+msgstr "&laquo; Перша"
+
+#: includes/functions-html.php:313
+msgid "Last &raquo;"
+msgstr "Остання &raquo;"
+
+#: includes/functions-html.php:357
+msgid "Your short link"
+msgstr "Ваше коротке посилання"
+
+#: includes/functions-html.php:388
+msgid "Long link"
+msgstr "Довге посилання"
+
+#: includes/functions-html.php:390 includes/functions-html.php:499
+#: includes/functions-html.php:500
+msgid "Stats"
+msgstr "Статистика"
+
+#: includes/functions-html.php:404
+msgid "Share with"
+msgstr "Поділитися в"
+
+#: includes/functions-html.php:405
+msgid "Tweet this!"
+msgstr "Твітнути!"
+
+#: includes/functions-html.php:406
+msgid "Share on Facebook"
+msgstr "Поділития на Facebook"
+
+#: includes/functions-html.php:407
+msgid "Share on Friendfeed"
+msgstr "Поділитися на Friendfeed"
+
+#: includes/functions-html.php:464
+msgid "Save"
+msgstr "Зберегти"
+
+#: includes/functions-html.php:464
+msgid "Save new values"
+msgstr "Зберегти нові значення"
+
+#: includes/functions-html.php:464
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: includes/functions-html.php:464
+msgid "Cancel editing"
+msgstr "Скасувати редагування"
+
+#: includes/functions-html.php:466
+msgid "Error, URL not found"
+msgstr "Помилка, URL не знайдено"
+
+#: includes/functions-html.php:512 includes/functions-html.php:513
+msgid "Edit"
+msgstr "Редагувати"
+
+#: includes/functions-html.php:519 includes/functions-html.php:520
+msgid "Delete"
+msgstr "Видалити"
+
+#: includes/functions-html.php:541
+msgid "Not a common link"
+msgstr "Незвичайне посилання"
+
+#: includes/functions-html.php:627
+msgid "Original URL"
+msgstr "Оригінальна URL"
+
+#: includes/functions-html.php:631
+msgid "Actions"
+msgstr "Дії"
+
+#: includes/functions-html.php:697
+msgid "Username"
+msgstr "Ім'я користувача"
+
+#: includes/functions-html.php:701
+msgid "Password"
+msgstr "Пароль"
+
+#: includes/functions-html.php:705
+msgid "Login"
+msgstr "Увійти"
+
+#: includes/functions-html.php:723 user/themes/full-bootstrap/theme.php:87
+#, php-format
+msgid "Hello <strong>%s</strong>"
+msgstr "Привіт, <strong>%s</strong>"
+
+#: includes/functions-html.php:723 user/themes/full-bootstrap/theme.php:87
+msgid "Logout"
+msgstr "Вийти"
+
+#: includes/functions-html.php:727
+msgid "Help"
+msgstr "Допомога"
+
+#: includes/functions-html.php:734
+msgid "Go to the admin interface"
+msgstr "Перейти до інтерфейсу адміністратора"
+
+#: includes/functions-html.php:735
+msgid "Admin interface"
+msgstr "Інтерфейс адміністратора"
+
+#: includes/functions-html.php:741
+msgid "Tools"
+msgstr "Інструменти"
+
+#: includes/functions-html.php:867 includes/functions-html.php:872
+msgid "Today"
+msgstr "Сьогодні"
+
+#: includes/functions-html.php:868 includes/functions-html.php:873
+msgid "Close"
+msgstr "Закрити"
+
+#: includes/functions-html.php:889
+#, php-format
+msgid "<a href=\"%s\">YOURLS version %s</a> is available. Please update!"
+msgstr "Доступна <a href=\"%s\">версія YOURLS %s</a>. Будь ласка, оновіть!"
+
+#: includes/functions-install.php:16 includes/functions.php:438
+msgid "Incorrect DB config, or could not connect to DB"
+msgstr "Неправильна конфігурація БД, або неможливо підключитися до БД"
+
+#: includes/functions-install.php:241
+#, php-format
+msgid "Table '%s' created."
+msgstr "Таблиця '%s' створена."
+
+#: includes/functions-install.php:243
+#, php-format
+msgid "Error creating table '%s'."
+msgstr "Помилка створення таблиці '%s'."
+
+#: includes/functions-install.php:249
+msgid "Could not initialize options"
+msgstr "Не вдалося ініціалізувати параметри"
+
+#: includes/functions-install.php:253
+msgid "Could not insert sample short URLs"
+msgstr "Не вдалося вставити зразки коротких URL"
+
+#: includes/functions-install.php:257
+msgid "YOURLS tables successfully created."
+msgstr "Таблиці YOURLS успішно створено."
+
+#: includes/functions-install.php:259
+msgid "Error creating YOURLS tables."
+msgstr "Помилка створення таблиць YOURLS."
+
+#. //translators: weekday
+#: includes/functions-l10n.php:795 includes/functions-l10n.php:805
+#: includes/functions-l10n.php:818
+msgid "Sunday"
+msgstr "Неділя"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:796 includes/functions-l10n.php:806
+#: includes/functions-l10n.php:819
+msgid "Monday"
+msgstr "Понеділок"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:797 includes/functions-l10n.php:807
+#: includes/functions-l10n.php:820
+msgid "Tuesday"
+msgstr "Вівторок"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:798 includes/functions-l10n.php:808
+#: includes/functions-l10n.php:821
+msgid "Wednesday"
+msgstr "Середа"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:799 includes/functions-l10n.php:809
+#: includes/functions-l10n.php:822
+msgid "Thursday"
+msgstr "Четвер"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:800 includes/functions-l10n.php:810
+#: includes/functions-l10n.php:823
+msgid "Friday"
+msgstr "П'ятниця"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:801 includes/functions-l10n.php:811
+#: includes/functions-l10n.php:824
+msgid "Saturday"
+msgstr "Субота"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:805
+msgid "S_Sunday_initial"
+msgstr "Н"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:806
+msgid "M_Monday_initial"
+msgstr "П"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:807
+msgid "T_Tuesday_initial"
+msgstr "В"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:808
+msgid "W_Wednesday_initial"
+msgstr "С"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:809
+msgid "T_Thursday_initial"
+msgstr "Ч"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:810
+msgid "F_Friday_initial"
+msgstr "П"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:811
+msgid "S_Saturday_initial"
+msgstr "С"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:818
+msgid "Sun"
+msgstr "Нд"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:819
+msgid "Mon"
+msgstr "Пн"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:820
+msgid "Tue"
+msgstr "Вт"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:821
+msgid "Wed"
+msgstr "Ср"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:822
+msgid "Thu"
+msgstr "Чт"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:823
+msgid "Fri"
+msgstr "Пт"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:824
+msgid "Sat"
+msgstr "Сб"
+
+#. //translators: month name
+#: includes/functions-l10n.php:827 includes/functions-l10n.php:842
+msgid "January"
+msgstr "Січень"
+
+#. //translators: month name
+#: includes/functions-l10n.php:828 includes/functions-l10n.php:843
+msgid "February"
+msgstr "Лютий"
+
+#. //translators: month name
+#: includes/functions-l10n.php:829 includes/functions-l10n.php:844
+msgid "March"
+msgstr "Березень"
+
+#. //translators: month name
+#: includes/functions-l10n.php:830 includes/functions-l10n.php:845
+msgid "April"
+msgstr "Квітень"
+
+#. //translators: month name
+#: includes/functions-l10n.php:831 includes/functions-l10n.php:846
+msgid "May"
+msgstr "Травень"
+
+#. //translators: month name
+#: includes/functions-l10n.php:832 includes/functions-l10n.php:847
+msgid "June"
+msgstr "Червень"
+
+#. //translators: month name
+#: includes/functions-l10n.php:833 includes/functions-l10n.php:848
+msgid "July"
+msgstr "Липень"
+
+#. //translators: month name
+#: includes/functions-l10n.php:834 includes/functions-l10n.php:849
+msgid "August"
+msgstr "Серпень"
+
+#. //translators: month name
+#: includes/functions-l10n.php:835 includes/functions-l10n.php:850
+msgid "September"
+msgstr "Вересень"
+
+#. //translators: month name
+#: includes/functions-l10n.php:836 includes/functions-l10n.php:851
+msgid "October"
+msgstr "Жовтень"
+
+#. //translators: month name
+#: includes/functions-l10n.php:837 includes/functions-l10n.php:852
+msgid "November"
+msgstr "Листопад"
+
+#. //translators: month name
+#: includes/functions-l10n.php:838 includes/functions-l10n.php:853
+msgid "December"
+msgstr "Грудень"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:842
+msgid "Jan_January_abbreviation"
+msgstr "Січ"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:843
+msgid "Feb_February_abbreviation"
+msgstr "Лют"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:844
+msgid "Mar_March_abbreviation"
+msgstr "Берез"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:845
+msgid "Apr_April_abbreviation"
+msgstr "Квіт"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:846
+msgid "May_May_abbreviation"
+msgstr "Трав"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:847
+msgid "Jun_June_abbreviation"
+msgstr "Черв"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:848
+msgid "Jul_July_abbreviation"
+msgstr "Лип"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:849
+msgid "Aug_August_abbreviation"
+msgstr "Серп"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:850
+msgid "Sep_September_abbreviation"
+msgstr "Верec"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:851
+msgid "Oct_October_abbreviation"
+msgstr "Жовт"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:852
+msgid "Nov_November_abbreviation"
+msgstr "Листоп"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:853
+msgid "Dec_December_abbreviation"
+msgstr "Груд"
+
+#: includes/functions-l10n.php:860
+msgid "am"
+msgstr "am"
+
+#: includes/functions-l10n.php:861
+msgid "pm"
+msgstr "pm"
+
+#: includes/functions-l10n.php:862
+msgid "AM"
+msgstr "AM"
+
+#: includes/functions-l10n.php:863
+msgid "PM"
+msgstr "PM"
+
+#. //translators: $thousands_sep argument for http://php.net/number_format, default is ,
+#: includes/functions-l10n.php:869
+msgid "number_format_thousands_sep"
+msgstr "&nbsp;"
+
+#. //translators: $dec_point argument for http://php.net/number_format, default is .
+#: includes/functions-l10n.php:873
+msgid "number_format_decimal_point"
+msgstr "."
+
+#. //translators: 'rtl' or 'ltr'. This sets the text direction for YOURLS.
+#: includes/functions-l10n.php:880
+msgid "ltr"
+msgstr "ltr"
+
+#: includes/functions-plugins.php:387
+msgid "Could not find and deactivated plugin :"
+msgid_plural "Could not find and deactivated plugins :"
+msgstr[0] "Не вдалося знайти та деактивувати плагін :"
+msgstr[1] "Не вдалося знайти та деактивувати плагіни :"
+msgstr[2] "Не вдалося знайти та деактивувати плагінів :"
+
+#: includes/functions-plugins.php:425
+msgid "Not a valid plugin file"
+msgstr "Неправильний файл плагіна"
+
+#: includes/functions-plugins.php:430
+msgid "Plugin already activated"
+msgstr "Плагін вже активовано"
+
+#: includes/functions-plugins.php:438
+#, php-format
+msgid "Plugin generated unexpected output. Error was: <br/><pre>%s</pre>"
+msgstr "Плагін видав непередбачений результат. Помилка: <br/><pre>%s</pre>"
+
+#: includes/functions-plugins.php:461
+msgid "Plugin not active"
+msgstr "Плагін не активний"
+
+#: includes/functions-plugins.php:541
+msgid ""
+"This page does not exist. Maybe a plugin you thought was activated is "
+"inactive?"
+msgstr ""
+"Цієї сторінки не існує. Можливо, плагін, який Ви вважаєте активованим, "
+"неактивний?"
+
+#: includes/functions-plugins.php:541
+msgid "Invalid link"
+msgstr "Недійсне посилання"
+
+#: includes/functions.php:201
+msgid "Missing or malformed URL"
+msgstr "Відсутня або неправильна URL"
+
+#: includes/functions.php:215
+msgid "URL is a short URL"
+msgstr "Це посилання вже сорочене"
+
+#: includes/functions.php:247
+#, php-format
+msgid "Short URL %s already exists in database or is reserved"
+msgstr "Коротка URL %s вже існує в базі даних або зарезервована"
+
+#. //translators: eg "http://someurl/ added to DB"
+#: includes/functions.php:253 includes/functions.php:275
+#, php-format
+msgid "%s added to database"
+msgstr "%s додано до бази даних"
+
+#: includes/functions.php:283
+msgid "Error saving url to database"
+msgstr "Помилка збереження URL до бази даних"
+
+#. //translators: eg "http://someurl/ already exists"
+#: includes/functions.php:300
+#, php-format
+msgid "%s already exists in database"
+msgstr "%s вже існує в базі даних"
+
+#: includes/functions.php:355
+msgid "Link updated in database"
+msgstr "Посилання оновлено в базі даних"
+
+#. //translators: "Error updating http://someurl/ (Shorturl: http://sho.rt/blah)"
+#: includes/functions.php:358
+#, php-format
+msgid "Error updating %s (Short URL: %s)"
+msgstr "Помилка оновлення %s (Коротка URL: %s)"
+
+#: includes/functions.php:364
+msgid "URL or keyword already exists in database"
+msgstr "URL або ключове слово вже існує в базі даних"
+
+#: includes/functions.php:761
+#, php-format
+msgid ""
+"if you are not redirected after 10 seconds, please <a href=\"%s\">click "
+"here</a>"
+msgstr ""
+"якщо Ви не будете перенаправлені через 10 секунд, <a href=\"%s\">натисніть "
+"тут</a>"
+
+#: includes/functions.php:769
+#, php-format
+msgid "Please <a href=\"%s\">click here</a>"
+msgstr "Будь ласка, <a href=\"%s\">натисніть тут</a>"
+
+#: includes/functions.php:1394
+msgid "Too many URLs added too fast. Slow down please."
+msgstr "Занадто багато URL додано занадто швидко. Повільніше будь ласка."
+
+#: includes/functions.php:1394
+msgid "Forbidden"
+msgstr "Заборонено"
+
+#: includes/functions.php:1673
+msgid "Unauthorized action or expired link"
+msgstr "Несанкціонована дія або прострочене посилання"
+
+#: includes/functions.php:1673
+msgid "Error"
+msgstr "Помилка"
+
+#: includes/functions.php:2064
+msgid "Service temporarily unavailable"
+msgstr "Сервіс тимчасово недоступний"
+
+#: includes/functions.php:2065
+msgid "Our service is currently undergoing scheduled maintenance."
+msgstr "Наш сервіс в даний час проходить планове технічне обслуговування."
+
+#: includes/functions.php:2066
+msgid ""
+"Things should not last very long, thank you for your patience and please "
+"excuse the inconvenience"
+msgstr ""
+"Це не повинно тривати довго, дякуємо Вам за терпіння та пробачте за "
+"незручності"
+
+#: includes/functions.php:2186
+#, php-format
+msgid ""
+"%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
+msgstr ""
+"%1$s <strong>припинено</strong> в цій версії %2$s! Натомість використовуйте "
+"%3$s."
+
+#: includes/functions.php:2188
+#, php-format
+msgid ""
+"%1$s is <strong>deprecated</strong> since version %2$s with no alternative "
+"available."
+msgstr ""
+"%1$s <strong>припинено</strong> в цій версії %2$s альтернативи недоступні."
+
+#: user/plugins/sample-toolbar/plugin.php:62
+msgid "day"
+msgid_plural "days"
+msgstr[0] "день"
+msgstr[1] "дні"
+msgstr[2] "днів"
+
+#: user/plugins/sample-toolbar/plugin.php:67
+msgid "view"
+msgid_plural "views"
+msgstr[0] "перегляд"
+msgstr[1] "перегляди"
+msgstr[2] "переглядів"
